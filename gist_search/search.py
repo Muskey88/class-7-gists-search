@@ -22,4 +22,5 @@ def search_gists(username, description=None, file_name=None):
                 continue
         
         results.append(gist)
-        return results 
+        
+    return results 
